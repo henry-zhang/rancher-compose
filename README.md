@@ -60,9 +60,9 @@ systemctl enable docker
 docker ps -qa|xargs docker rm -f ;systemctl stop docker ; umount /var/lib/rancher/volumes;rm /var/lib/rancher/ -rf;rm -rf /var/lib/docker
 
 
-##re-join rancher cluster ,please update the accesskey,like "CD11B050AF06126A8F04:1514678400000:d4TYnHHp9v7meohLPqPEduAyM7I"
+##re-join rancher cluster ,please update the accesskey,like "CD11B126A8F04:1400000:d4TYnHHp9v7meohLPqPEduAyM7I"
 
-sudo docker run --rm --privileged -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/rancher:/var/lib/rancher rancher/agent:v1.2.5 https://rancher.engage.devsymbio.com/v1/scripts/CD11B050AF06126A8F04:1514678400000:d4TYnHHp9v7meohLPqPEduAyM7I
+sudo docker run --rm --privileged -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/rancher:/var/lib/rancher rancher/agent:v1.2.5 https://rancher.engage.newdevops.net/v1/scripts/CD11B050AF04:151460000:d4TYnmeohLPqPEduAyM7I
 
 ##check agent logs
 
