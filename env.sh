@@ -1,0 +1,3 @@
+export RANCHER_URL=https://rancher.engage.devsymbio.com
+export RANCHER_ACCESS_KEY=08BA74C9AFD6EEB39A71
+export RANCHER_SECRET_KEY=f4aQk1BJFcZMyxawn22bdMD1XCLEjzX28WetoPhT
